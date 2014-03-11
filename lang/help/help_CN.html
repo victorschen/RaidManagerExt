@@ -1,0 +1,52 @@
+<table width="90%" border="0" cellpadding="3" cellspacing="1" bgcolor="9DCDED">
+              <tr> 
+                <td height="28" background="images/top-111.gif" bgcolor="#437CD3" class="unnamed1"> 
+                  <table width="90%" border="0" cellpadding="0" cellspacing="0" class="unnamed1">
+                    <tr> 
+                      <td width="50">&nbsp;</td>
+                      <td><strong><font color="#FFFFFF">帮 助 文 档</font></strong></td>
+                    </tr>
+                  </table></td>
+              </tr>
+              <tr> 
+                <td align="center" bgcolor="#FFFFFF" class="unnamed1"><br>
+                  <table width="90%" border="0" cellpadding="0" cellspacing="0" class="unnamed1">
+                    <tr> 
+                      <td>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 磁盘阵列是一种把若干硬磁盘驱动器按照一定要求组成一个整体，整个磁盘阵列由阵列控制器管理的系统。冗余磁盘阵列RAID(Redundant Array of Independent Disks)技术1987年由加州大学伯克利分校提出，最初的研制目的是为了组合小的廉价磁盘来代替大的昂贵磁盘，以降低大批量数据存储的费用（当时RAID称为Redundant Array of Inexpensive Disks 廉价的磁盘阵列），同时也希望采用冗余信息的方式，使得磁盘失效时不会使对数据的访问受损失，从而开发出一定水平的数据保护技术。磁盘阵列的工作原理与特征：RAID的基本结构特征就是组合(Striping)，捆绑2个或多个物理磁盘成组，形成一个单独的逻辑盘.
+                        <br>
+                        <br>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td height="25" align="center" background="images/h2_bg01.gif"><strong>我们设计的磁盘阵列支持以下基本的RAID级别</strong></td>
+                    </tr>
+                    <tr>
+                      <td><table width="100%" border="0" cellpadding="5" cellspacing="1" class="unnamed1">
+                          <tr bgcolor="#E3F3F9"> 
+                            <td width="10%" height="25" align="center" bgcolor="#B8D3F8">RAID0级</td>
+                            <td bgcolor="#DAE9FC">&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;无冗余无校验的磁盘阵列。数据同时分布在各个磁盘驱动器上，没有容错能力，读写速度在RAID中最快，但因为任何一个磁盘驱动器损坏都会使整个RAID系统失效，所以安全系数反倒比单个的磁盘驱动器还要低。一般用在对数据安全要求不高，但对速度要求很高的场合。</td>
+                          </tr>
+                          <tr bgcolor="#E3F3F9"> 
+                            <td height="25" align="center" bgcolor="#B8D3F8">RAID1级</td>
+                            <td bgcolor="#DAE9FC">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;镜象磁盘阵列。每一个磁盘驱动器都有一个镜像磁盘驱动器，镜像磁盘驱动器随时保持与原磁盘驱动器的内容一致。RAID1具有最高的安全性，但只有一个磁盘空间被用来存储数据。主要用在对数据安全性要求很高，而且要求能够快速恢复被损坏的数据的场合。                            </td>
+                          </tr>
+                          <tr bgcolor="#E3F3F9"> 
+                            <td height="25" align="center" bgcolor="#B8D3F8">RAID10级</td>
+                            <td bgcolor="#DAE9FC">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;分块的镜象磁盘阵列。由RAID0和RAID1演变而来，通过分块镜像技术实现。分块技术使多个磁盘驱动器可以并行读/写，镜像技术使系统具有最高的可靠性。它虽综合了RAID0和RAID1的优点，但冗余度为50%，使数据存储空间减半。</td>
+                          </tr>                          
+                          <tr bgcolor="#E3F3F9"> 
+                            <td height="25" align="center" bgcolor="#B8D3F8">RAID5级</td>
+                            <td bgcolor="#DAE9FC">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;无独立校验盘的奇偶校验磁盘阵列。同样采用奇偶校验来检查错误，但没有独立的校验盘，校验信息分布在各个磁盘驱动器上。RAID5对大小数据量的读写都有很好的性能。                            </td>
+                          </tr>
+                          <tr bgcolor="#E3F3F9"> 
+                            <td height="25" align="center" bgcolor="#B8D3F8">RAID 50级</td>
+                            <td bgcolor="#DAE9FC">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;分布奇偶位阵列条带
+RAID 50是RAID 0 和RAID5的组合，跨磁盘存储数据，使用分布式奇偶位。提供较高的数据可靠性，优秀的整体性能，并支持更大的卷尺寸。 它最适合于高可靠存储/读取速度、高数据传输的应用，例如事务处理和许多用户的办公应用程序。RAID50 最小要求6个驱动器                          </td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                  </table>
+                  <br>
+                <br> </td>
+              </tr>
+            </table>

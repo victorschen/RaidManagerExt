@@ -1,0 +1,97 @@
+<table width="90%" border="0" cellpadding="3" cellspacing="1" bgcolor="9DCDED">
+              <tr> 
+                <td height="28" background="images/top-111.gif" bgcolor="#437CD3" class="unnamed1"> 
+                  <table width="90%" border="0" cellpadding="0" cellspacing="0" class="unnamed1">
+                    <tr> 
+                      <td width="50">&nbsp;</td>
+                      <td><strong><font color="#FFFFFF">HELP</font></strong></td>
+                    </tr>
+                  </table></td>
+              </tr>
+              <tr> 
+                <td align="center" bgcolor="#F5FCFF" class="unnamed1"><br>
+                  <table width="90%" border="0" cellpadding="0" cellspacing="0" class="unnamed1">
+                    <tr> 
+                      <td> &nbsp;&nbsp;&nbsp;&nbsp;RAID is an acronym for Redundant Array of Independent Disks. It 
+is an array of multiple independent hard disk drives that provides 
+high performance and fault tolerance. The SATA RAID controller 
+implements several levels of the Berkeley RAID technology. An 
+appropriate RAID level is selected when the volume sets are 
+disk capacity, data availability (fault tolerance or redundancy), 
+and disk performance. The following section discusses the RAID 
+levels supported by the SATA RAID controller.
+The SATA RAID controller makes the RAID implementation and 
+the disk's physical configuration transparent to the host operating
+system. This means that the host operating system drivers and 
+software utilities are not affected, regardless of the RAID level 
+selected. Correct installation of the disk array and the controller 
+requires a proper understanding of RAID technology and the 
+concepts.  
+                        <br>
+                        <br>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td height="25" align="center" background="images/h2_bg01.gif"><strong>The porduct implements RAID level 0,1,10,5,50</strong></td>
+                    </tr>
+                    <tr>
+                      <td><table width="100%" border="0" cellpadding="5" cellspacing="1" class="unnamed1">
+                          <tr bgcolor="#DAE9FC"> 
+                            <td width="10%" height="25" align="center" bgcolor="#B8D3F8">RAID0</td>
+                            <td bgcolor="#DAE9FC">RAID 0, also referred to as striping, writes stripes of data across 
+multiple disk drives instead of just one disk drive. RAID 0 does 
+not provide any data redundancy, but does offer the best high-speed 
+data throughput. RAID 0 breaks up data into smaller blocks 
+and then writes a block to each drive in the array. Disk striping 
+enhances performance because multiple drives are accessed 
+simultaneously; the reliability of RAID Level 0 is less because the 
+entire array will fail if any one disk drive fails, due to a lack of 
+redundancy.</td>
+                          </tr>
+                          <tr bgcolor="#DAE9FC"> 
+                            <td height="25" align="center" bgcolor="#B8D3F8">RAID1</td>
+                            <td bgcolor="#DAE9FC">RAID 1 is also know as "disk mirroring"; data written to one disk
+drive is simultaneously written to another disk drive. Read per-
+formance may be enhanced if the array controller can, in parallel, 
+accesses both members of a mirrored pair. During writes, there 
+will be a minor performance penalty when compared to writing 
+to a single disk. If one drive fails, all data (and software applica-
+tions) are preserved on the other drive. RAID 1 offers extremely 
+high data reliability, but at the cost of doubling the required data 
+storage capacity.                      </td>
+                          </tr>
+                          <tr bgcolor="#DAE9FC"> 
+                            <td height="25" align="center" bgcolor="#B8D3F8">RAID10</td>
+                            <td bgcolor="#DAE9FC">RAID 10 is a combination of RAID 0 and RAID 1, combing strip-
+ping with disk mirroring. RAID Level 10 combines the fast per-
+formanceof Level 0 with the data redundancy of Leve1 1. In 
+similar to Level 0, which are then duplicated to another set of 
+drive for data protection. RAID 10 has been traditionally imple-
+mented using an even number of disks, some hybrids can use an 
+odd number of disks as well. </td>
+                          </tr>                          
+                          <tr bgcolor="#DAE9FC"> 
+                            <td height="25" align="center" bgcolor="#B8D3F8">RAID5</td>
+                            <td bgcolor="#DAE9FC">RAID 5 is sometimes called striping with parity at byte level. In 
+RAID 5, the parity information is written to all of the drives in the 
+controllers rather than being concentrated on a dedicated parity 
+disk. If one drive in the system fails, the parity information can 
+be used to reconstruct the data from that drive. All drives in the 
+array system can be used for seek operations at the same time, 
+greatly increasing the performance of the RAID system. This 
+relieves the write bottleneck that characterizes RAID 4, and is the 
+primary reason that RAID 5 is more often implemented in RAID 
+arrays.</td>
+                          </tr>
+                          <tr bgcolor="#DAE9FC"> 
+                            <td height="25" align="center" bgcolor="#B8D3F8">RAID50</td>
+                            <td bgcolor="#DAE9FC">Distribution of the array with parity bit 
+RAID 0 and RAID 5 is a combination of RAID50, cross-disk data storage, the use of distributed parity bit. Provide higher data reliability and excellent overall performance, and support greater volume size. It is the most suitable for high reliable storage / read speed, high data transmission applications, such as transaction processing and many users of office applications. RAID50 minimum requirements of six drives.</td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                  </table>
+                  <br>
+                  <br> </td>
+              </tr>
+            </table>

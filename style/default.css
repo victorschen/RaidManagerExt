@@ -1,0 +1,667 @@
+
+body{
+    text-align:center;
+	margin: 0px;
+	font-family: Tahoma, 宋体, serif;
+	font-size: 12px;
+	background-image:url(../images/bg3.jpg)	
+}
+
+
+table{
+   
+	border: 0px;
+	vertical-align:top;	
+	margin: 0px;	
+	border-spacing: 1px;
+	border-collapse: inherit!important;
+	border-collapse: collapse;
+}
+
+.forRaidConfig{
+
+  border-spacing:1px 1px;
+  border-collapse:separate;
+  }
+
+
+.inc_menu_table{
+	border: 0px;
+	vertical-align: top;	
+	margin: 0px;	
+	border-spacing: 0px;	
+	border-collapse: collapse;
+}
+
+td{
+	font-family: Tahoma, 宋体, serif;
+	font-size: 12px;
+	padding: 0px;
+}
+
+#layout{    
+    margin:0 auto;
+	width: 1000px;
+	height: 100%;
+	border: 0pt;
+	border-collapse: collapse;
+	border-spacing: 0px;
+}
+
+#layout
+td{
+	padding: 0px;
+}
+
+
+#banner{
+	padding-left: 20px;
+	width: 1000px;
+	height: 85px;
+	background-image: url('default/bg_banner.gif');
+	background-repeat: no-repeat;
+	background-position: left;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+}
+#messageTitle
+img{
+	vertical-align:middle;
+}
+
+
+#messageTitle{
+	font-size: 14px;
+	padding-left: 40px;
+	background-color: #CCCCCC;
+	text-align:center;
+}
+
+#footer{
+	height: 60px;
+	background-color: #CCCCCC;
+}
+
+#footer
+div{
+	text-align: center;
+	font-family: Tahoma, 宋体, serif ;
+	font-size:  12px; 
+	background-image: url('../images/vcss.gif');
+	background-position: bottom right;
+	background-repeat: no-repeat;
+}
+
+
+
+#menu{
+	background-image: url('default/bg_menu.gif');
+	background-repeat: no-repeat;
+	background-position: top;
+	background-color: white;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #CCCCCC;
+	color: black;
+	width: 200px;
+	vertical-align: top;
+}
+
+#main{
+	background-color: white;
+	color: black;
+	vertical-align: top;
+	width: 800px;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #CCCCCC;
+}
+
+#main
+p{
+	padding-left: 20px;
+	padding-top: 20px;
+	font-size: 14px;
+
+}
+
+#main
+form{
+	padding-left:30px;
+	font-size: 14px;
+}
+
+
+/*主菜单
+*/
+
+#mainmenu
+a:hover{
+	display: block;
+	cursor:pointer;
+}
+
+#mainmenu
+a{
+	display: block;
+	text-decoration: none; 
+	color: black;
+	background-color: white;
+	font-size:  14px; 
+	padding-left: 10pt;
+}
+
+#mainmenu
+img{
+	border: 0px;
+	vertical-align: middle;
+}
+
+
+#mainmenu
+a.item{
+	text-indent: 35px; 
+	display: block;
+	text-decoration: none; 
+	color: black;
+	background-color: white;
+	font-size:  14px; 
+	background-image: url("default/menu_item.gif");
+	width:   200px;
+	height:  33px;
+	line-height: 33px;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+}
+
+
+
+#mainmenu
+a.item:hover{
+	background-image: url('default/menu_item_hover.gif');
+	width:   200px;
+	height:  33px;
+	line-height: 33px;
+	background-repeat: no-repeat;
+	background-position:  center;
+	color: #00008C;	
+	background-color: white;
+	font-weight: bold
+}
+
+#mainmenu
+.title{
+	text-decoration: none;
+	background-image: url("default/menu_title.gif");
+	background-repeat: no-repeat;
+	background-position: left top;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color:  rgb(0,55,111);
+	color:white;
+	background-color:white;
+	padding-top: 2px;
+}
+
+
+#logon
+input{
+	border: solid 1px #CCCCCC;
+	font-size: 12px;
+	width:  140px;
+	font-family: Tahoma, 宋体, serif;
+}
+
+#logon{
+	font-family: Tahoma, 宋体, serif;
+	color: black;
+	background-color: white;
+	font-size:  12px; 
+	height: 80px;
+	background-position: top;
+	background-repeat: repeat-x;
+	background-image: url('default/logon_bg.gif');
+	line-height: 20px;
+	width:400px;
+	height: 300px;
+}
+
+
+
+#logon
+span{
+	padding-left:40px;
+	width: 100px;
+}
+
+#logon
+#submit{
+	text-align:center;
+	padding-right: 20px
+}
+
+
+#logout{
+	padding-top: 15px;
+	text-align: center;
+	color: black;
+	background-color: white;
+	font-size:  12px; 
+	height: 50px;
+	background-position: top;
+	background-repeat: repeat-x;
+	background-image: url('default/bg_logon.gif');
+}
+
+#logout
+a{
+	text-decoration: none; 
+	color: blue;
+	background-color:transparent;
+	font-size:  12px; 
+}
+
+#logout
+a:hover{
+	text-decoration: none; 
+	color: white;
+	background-color: blue;
+	font-size:  12px; 
+}
+
+#folderTree{
+	border-right:solid 1px #9DCDED;
+	vertical-align: top;
+	padding-left: 20px;
+	padding-top: 0px;
+	width: 200px;
+	position: absolute;
+	left:0px;
+	top: 00px;
+	background-color:#F2FAFD;
+}
+
+#folderTrees{
+	border-right:solid 1px #9DCDED;
+	vertical-align: top;
+	padding-left: 20px;
+	padding-top: 0px;
+	width: 200px;
+	height:420px;
+	position: absolute;
+	left:0px;
+	top: 30px;
+	background-color:#F2FAFD; 
+}
+
+#properties{
+	position: absolute;
+	padding: 20px;
+	padding-top: 0px;
+	vertical-align: top;
+	width: 390px;
+}
+
+#saveproperties{
+	position: absolute;
+	padding: 20px;
+	vertical-align: top;
+	width: 390px;
+	visibility: 'hidden';
+}
+
+#infoback{
+	background-color: #FFFFFF;
+	vertical-align: top;
+	position: absolute;
+	left:250px;
+	width: 480px;
+	top:40px;
+	z-index: 1;
+	
+}
+
+
+#showRaidTable{
+    
+	vertical-align: top;
+	position: absolute;	
+	left:45px;
+	top:10px;	
+}
+
+#info{
+	filter: progid:DXImageTransform.Microsoft.Shadow(color=#9DCDED,direction=135,strength=4);)
+	color:black;
+	vertical-align: top;
+	position: absolute;
+	left:300px;
+	top:51px;
+	z-index: 120;
+}
+
+#infoHead{
+	padding-left: 20px;
+	height: 26px;
+	width: 390px;
+	background-image: url('default/tab_line.gif');
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+#infoHead
+div{
+	display: inline;
+	background-image: url('default/tab_normal.gif');
+	text-align: center;
+	width: 100px;
+	height: 21px;
+	vertical-align: bottom;
+	padding-top: 4px;
+	cursor: pointer;
+
+}
+
+
+
+#infobody{
+	background-color: white;
+	border: solid 1px #9DCDED;
+	border-top-width: 0px;
+	width: 390px;
+	height: 310px;
+}
+
+#tree{
+	width: 798px;
+}
+
+.tableTitle{
+	color: black;
+}
+
+.propertyNameTitle{
+	padding-left: 10px;
+	height: 24px;
+	border: solid 1px #FFFFFF;
+	background-color:#C7E3F3; 
+	border-top-width:0px;
+	border-bottom-width:1px;
+
+}
+
+.propertyValueTitle{
+	padding-left: 10px;
+	height: 24px;
+	background-color: #C7E3F3;
+	border: solid 1px #FFFFFF;
+	border-left: 0px; 
+	border-top-width:0px;
+	border-bottom-width:1px;
+	
+}
+
+
+.propertyName{
+	padding-left: 10px;
+	width: 120px;
+	height: 24px;
+	background-color:#E3F3F9;
+	border: solid 1px #FFFFFF; 
+	border-top-width:1px;
+	border-bottom-width:0px;
+}
+
+
+.propertyValue{
+	padding-left: 10px;
+	background-color:#E3F3F9;
+	width: 200px;
+	height: 24px;
+	border: solid 0px #FFFFFF;
+	border-top-width:1px;
+	border-bottom-width:0px; border-bottom:none;
+}
+
+#actionss{
+	background-color: #EEEEEE;
+	padding-left: 20px;
+	padding-top: 8px;
+	padding-bottom: 10px;
+	background-image: url('default/bg_logon.gif');
+	height:40px;
+}
+
+
+.abutton{
+	padding-top: 4px;
+	display: inline;
+	background-image: url('../images/anniu1111.gif');
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 85px;
+	height: 24px;
+	text-align: center;
+	cursor: pointer; color:#FFFFFF;
+	
+}
+
+#sysmessage{
+	width: 798px
+}
+
+#message_layout{
+	border-top: solid 1px #CCCCCC;
+	width: 798px;
+}
+
+
+.hiddenControl{
+	visibility: 'hidden';
+	width: 10px;
+}
+
+.hiddenSubmit{
+   visibility: 'hidden';
+   type:textarea;
+}
+
+#network{
+	text-align: left;
+	padding-left: 100px;
+	padding-top: 50px;
+	width: 799px;
+}
+
+.pageTitle{
+	font-size:	20px;
+	font-family: Arial, 黑体, sans;
+	font-weight: bold;
+}
+
+.networkKey{
+	width: 150px;		
+}
+
+.networkValue{
+	border: solid 1px #CCCCCC;
+	height: 20px;
+	font-family: Courier, Courier New, Tahoma, monospace;
+}
+
+.errorTip{
+	height: 20px;
+	width:  250px;
+	display: none;
+	
+	border:	solid 1px #FF8888;
+	background-color: #FFDDDD;
+	color: black;
+	font-size: 12px;
+	padding:	20px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+/*added by zhouzhou for account.php*/
+.errorTip_account{
+	height: 20px;
+	width:  300px;
+	display: none;
+	
+	border:	solid 1px #FF8888;
+	background-color: #FFDDDD;
+	color: black;
+	font-size: 12px;
+	padding:	20px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+
+.errorDetial{
+	height: 20px;
+	width:  550px;
+	display: inline;
+	border:	solid 1px #8888FF;
+	background-color: #DDDDFF;
+	color: black;
+	font-size: 12px;
+	padding:	20px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+#accountList{
+	width: 330px;
+}
+
+#accountList
+td{
+	width: 110px;
+}
+
+#accountList
+a{
+	text-decoration: none; 
+	color: blue;
+	background-color: white;
+}
+
+#accountList
+a:hover{
+	text-decoration: none; 
+	color: white;
+	background-color: blue;
+}
+
+
+#accountTitle{
+	background-color: #EEEEEE;
+}
+
+
+#addAccount
+a{
+	background-color: #CCCCCC;
+	padding-left: 20px;
+	text-align: left;
+	display: block;
+	font-size: 14px;
+	height: 20px;
+	vertical-align: middle;
+}
+
+#addAccount
+span{
+	padding-left: 20px;
+	width: 100px;
+}
+
+#addAccount
+
+
+.bigButton{
+	padding-top: 2px;
+	display: inline;
+	background-image: url('default/bigbutton_normal.gif');
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 92px;
+	height: 27px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.bigButton
+img{
+	vertical-align: middle;
+}
+
+#dialog{
+	width: 500px;
+	height: 350px;
+	background-image: url('default/bg_dialog.jpg');
+	background-color: #EEEEEE;
+}
+
+#dialogTitle{
+	padding-left: 20px;
+	padding-top: 8px;
+	padding-bottom: 10px;
+	height:40px;
+	font-size:	20px;
+	font-family: Arial, 黑体, sans;
+	font-weight: bold;
+}
+
+#about{
+	font-size: 14px;
+	padding:  40px;
+	height: 250px;
+}
+
+#dialog
+span{
+	width: 200px;
+}
+
+#account
+span{
+	padding-left: 40px;
+	width: 200px;
+}
+
+#account
+a{
+	background-color: #CCCCCC;
+	padding-left: 20px;
+	text-align: left;
+	display: block;
+	font-size: 14px;
+	height: 20px;
+	vertical-align: middle;
+}
+
+#account
+
+#messages{
+	border-collapse: collapse;
+	width: 878px;
+	font-size: 14px;
+}
+
+#messages
+.ac
+{
+
+	text-align: center;
+}
+
+#messages
+td{
+	border: 1px solid #CCCCCC;
+	font-size: 12px;
+}

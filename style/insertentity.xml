@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XML Spy v4.2 U (http://www.xmlspy.com) by gxz (hust cs) -->
+<!--<singleRaid chunk="32" level="0" raidDiskNum="0"  index="0" SubRaidNumber="0" isSpareDisk="0">-->
+<singleRaid raidDiskNum="0" spareDiskNum="0" mappingNo="" index="1" chunk="" level="" devName="" popedom="all-">
+
+	<!--<SubRaid chunk="32" raidDiskNum="0"  index="0" level="0" SubRaidNumber="0" isSpareDisk="0">-->
+	<!--<SubRaid chunk="32" raidDiskNum="0"  index="0" level="0" isSpareDisk="0">-->
+		<Disk type="" status="" sn="" vendor="" capacity="" devName="" isSpareDisk="0" ScsiID="" lun="" channel="" host=""/>
+	<!--</SubRaid>-->
+</singleRaid>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Rack diskNum="0" raidNum="0" lastRaidIndex="0">
+	<Disk type="SATA" status="0" sn="abcd0001" vendor="VMware, " capacity="20G" devName="/dev/sda" isSpareDisk="0" host="" scsiID="0" lun="" channel=""/>
+	<Disk type="SATA" status="0" sn="abcd0002" vendor="VMware, " capacity="20G" devName="/dev/sdb" isSpareDisk="0" host="" scsiID="1" lun="" channel=""/>
+	<Disk type="SATA" status="0" sn="abcd0003" vendor="VMware, " capacity="20G" devName="/dev/sdc" isSpareDisk="0" host="" scsiID="2" lun="" channel=""/>
+	<Disk type="SATA" status="0" sn="abcd0004" vendor="VMware, " capacity="20G" devName="/dev/sdd" isSpareDisk="0" host="" scsiID="3" lun="" channel=""/>
+	<Disk type="SATA" status="0" sn="abcd0005" vendor="VMware, " capacity="20G" devName="/dev/sde" isSpareDisk="0" host="" scsiID="4" lun="" channel=""/>
+	<Disk type="SATA" status="0" sn="abcd0006" vendor="VMware, " capacity="20G" devName="/dev/sdf" isSpareDisk="0" host="" scsiID="5" lun="" channel=""/>
+	<Disk type="SATA" status="0" sn="abcd0007" vendor="VMware, " capacity="20G" devName="/dev/sdg" isSpareDisk="0" host="" scsiID="6" lun="" channel=""/>
+	<Disk type="SATA" status="0" sn="abcd0008" vendor="VMware, " capacity="20G" devName="/dev/sdh" isSpareDisk="0" host="" scsiID="7" lun="" channel=""/>
+	<Disk type="SATA" status="0" sn="abcd0009" vendor="VMware, " capacity="20G" devName="/dev/sdi" isSpareDisk="0" host="" scsiID="8" lun="" channel=""/>
+	<Disk type="SATA" status="0" sn="abcd0010" vendor="VMware, " capacity="20G" devName="/dev/sdj" isSpareDisk="0" host="" scsiID="9" lun="" channel=""/>
+	<Disk type="SATA" status="0" sn="abcd0011" vendor="VMware, " capacity="20G" devName="/dev/sdk" isSpareDisk="0" host="" scsiID="10" lun="" channel=""/>
+	<Disk type="SATA" status="0" sn="abcd0012" vendor="VMware, " capacity="20G" devName="/dev/sdl" isSpareDisk="0" host="" scsiID="11" lun="" channel=""/>
+	<Disk type="SATA" status="0" sn="abcd0013" vendor="VMware, " capacity="20G" devName="/dev/sdm" isSpareDisk="0" host="" scsiID="12" lun="" channel=""/>
+	<Disk type="SATA" status="0" sn="abcd0014" vendor="VMware, " capacity="20G" devName="/dev/sdn" isSpareDisk="0" host="" scsiID="13" lun="" channel=""/>
+	<Disk type="SATA" status="0" sn="abcd0015" vendor="VMware, " capacity="20G" devName="/dev/sdo" isSpareDisk="0" host="" scsiID="14" lun="" channel=""/>
+	<Disk type="SATA" status="0" sn="abcd0016" vendor="VMware, " capacity="20G" devName="/dev/sdp" isSpareDisk="0" host="" scsiID="15" lun="" channel=""/>
+	<Disk type="SATA" status="0" sn="abcd0017" vendor="VMware, " capacity="20G" devName="/dev/sdq" isSpareDisk="0" host="" scsiID="16" lun="" channel=""/>
+	<Disk type="SATA" status="0" sn="abcd0018" vendor="VMware, " capacity="20G" devName="/dev/sdr" isSpareDisk="0" host="" scsiID="17" lun="" channel=""/>
+	<Disk type="SATA" status="0" sn="abcd0019" vendor="VMware, " capacity="20G" devName="/dev/sds" isSpareDisk="0" host="" scsiID="18" lun="" channel=""/>
+<singleRaid raidDiskNum="3" spareDiskNum="0" mappingNo="" index="1" chunk="64" level="0" devName="" popedom="all-">
+	<Disk type="SATA" status="0" sn="abcd0020" vendor="VMware, " capacity="20G" devName="/dev/sdt" isSpareDisk="0" host="" scsiID="19" lun="" channel=""/>
+	<Disk type="SATA" status="0" sn="abcd0021" vendor="VMware, " capacity="20G" devName="/dev/sdu" isSpareDisk="0" host="" scsiID="20" lun="" channel=""/>
+	<Disk type="SATA" status="0" sn="abcd0022" vendor="VMware, " capacity="20G" devName="/dev/sdv" isSpareDisk="0" host="" scsiID="21" lun="" channel=""/>
+</singleRaid>
+</Rack>

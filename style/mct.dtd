@@ -1,0 +1,45 @@
+<!ELEMENT Rack (Disk*, Volume*, LUN*)>
+<!-- Zero or more of Disks, Volumes & LUNs is contained -->
+<!ELEMENT LUN (Volume+)>
+<!-- One or more Volumes is required -->
+<!ELEMENT Volume (Disk+)>
+<!-- One or more Disks is required -->
+<!ELEMENT Disk EMPTY>
+<!ATTLIST Rack
+	DiskTotal CDATA #REQUIRED
+	LunAssigned CDATA #REQUIRED
+	DiskMax CDATA #IMPLIED
+	VolumeMax CDATA #IMPLIED
+	LunMax CDATA #IMPLIED
+>
+<!ATTLIST LUN
+	Serial CDATA #REQUIRED
+	level (0 | 1 | JBOD) #REQUIRED
+	StripeSize (4 | 8 | 16 | 32 | 64 | 128 | 256) #REQUIRED
+	MemberVolume CDATA #REQUIRED
+	Capacity CDATA #REQUIRED
+	LoopId CDATA #REQUIRED
+	Status CDATA #REQUIRED
+	ProductId CDATA #IMPLIED
+	VendorId CDATA #IMPLIED
+>
+<!ATTLIST Volume
+	Serial CDATA #REQUIRED
+	level (0 | 1 | 10 | 5) #REQUIRED
+	StripeSize (4 | 8 | 16 | 32 | 64 | 128 | 256) #REQUIRED
+	MemberDisk CDATA #REQUIRED
+	isSpareDisk CDATA #REQUIRED
+	FailedDisk CDATA #REQUIRED
+	Capacity CDATA #REQUIRED
+	Status CDATA #REQUIRED
+>
+<!ATTLIST Disk
+	type (UNKNOWN | SCSI | IDE | SATA | FC | USB) #REQUIRED
+	Capacity CDATA #REQUIRED
+	Speed CDATA #REQUIRED
+	Channel CDATA #REQUIRED
+	ScsiId CDATA #REQUIRED
+	Status CDATA #REQUIRED
+	ProductId CDATA #IMPLIED
+	VendorId CDATA #IMPLIED
+>
